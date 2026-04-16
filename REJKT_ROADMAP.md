@@ -1,6 +1,6 @@
 # REJKT Platform — Master Roadmap & Prompt Reference
 
-> **What this is:** A self-hostable NFT storefront + deployer platform on Tezos. Creators deploy their own FA2 token contracts with custom symbols, get a branded storefront, and list tokens on objkt.com. The platform is free to use (Manifold-style), sustained by the creator's own NFT sales and optional community support.
+> **What this is:** A self-hostable NFT storefront + deployer platform on Tezos. Creators deploy their own FA2 token contracts with custom symbols, get a branded storefront, and list tokens on objkt.com. The platform is free to use, with optional community support.
 
 ---
 
@@ -9,7 +9,6 @@
 - **Free to deploy.** No platform fee. Gas/storage costs (~1–3 tez) paid by the deployer.
 - **Fee is optional and on-chain.** Marketplace contracts include a `fee_percent` param (default 0). The deployer sets it themselves. You cannot force a fee on self-hosters.
 - **Open source everything.** SmartPy contracts, frontend, deployer UI — all public on GitHub.
-- **Sustained by art.** Platform creator (you) sells NFTs on the platform. Community support is organic.
 - **Self-hostable or hosted.** Creators can run it on their own VPS or use a hosted version you maintain.
 
 ---
